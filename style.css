@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: italic;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0 12px;
+  color: pink;
+  text-align: center;
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+button{
+  position: absolute;
+  font-size: 1.2em;
+  width: 120px;
+  height: inherit;
+  cursor: pointer;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 0 2px 4px gray;
+  border: 2px solid pink;
+}
+button:nth-child(1) {
+  margin-left: -200px;
+  color: white;
+  background-color: pink;
+}
+button:nth-child(2) {
+  margin-right: -200px;
+  color: white;
+  background-color: pink;
+}
